@@ -5,8 +5,8 @@ contract Voter {
     struct VoterInfo {
         string name;
         string mobile;
-        string addressInfo; // Storing as string for example purposes
-        string image; // Storing image name or URL
+        string addressInfo; 
+        string image;
         bool registered;
     }
 
